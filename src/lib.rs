@@ -1,10 +1,11 @@
 #![allow(dead_code)]
-/// Library to convert an ASCII string into Hex
-/// The general flow goes like this:
-/// 1. Convert the ASCII into bytes.
-/// 2. Convert the bytes into Hex Strings
-/// 3. Concatenate the Hex Strings
-/// 4. Return the single Hex String
+//! Library to convert an ASCII string into Hex
+//! The general flow goes like this:
+//! 1. Convert the ASCII into bytes.
+//! 2. Convert the bytes into Hex Strings
+//! 3. Concatenate the Hex Strings
+//! 4. Return the single Hex String
+
 pub mod ascii_to_hex {
 
     /// What gets called from outside
